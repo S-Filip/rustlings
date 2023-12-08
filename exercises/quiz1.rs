@@ -13,10 +13,21 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
-
 // Put your function here!
-// fn calculate_price_of_apples {
+fn calculate_price_of_apples(amount : i32) -> i32 {
+    let mut apple_price = 2;
+
+// I consider this to be the correct way to do it so that the variables can be altered.
+// @S-Filip
+
+    if amount > 40 {
+        let apple_price = 1;
+        amount * apple_price
+    } else {
+        amount * apple_price 
+    }
+}
+
 
 // Don't modify this function!
 #[test]
